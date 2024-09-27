@@ -18,10 +18,10 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: gabrieltomazibi10@gmail.com
-          password: jymc vduu jhts ohsu
+          username: 
+          password: 
           subject: "Novo Push no Repositório"
           body: "Foi realizado um push no repositório. Verifique o código."
-          to: "gabriieltomazini@gmail.com"
-          from: "gabrieltomazibi10@gmail.com"
+          to: 
+          from: 
           secure: true
