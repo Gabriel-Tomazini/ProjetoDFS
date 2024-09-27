@@ -22,6 +22,6 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "Novo Push no Repositório"
           body: "Foi realizado um push no repositório. Verifique o código."
-          to: "${{ secrets.EMAIL_USERNAME2 }}"
-          from: "${{ secrets.EMAIL_USERNAME }}"
+          to: ${{ secrets.EMAIL_USERNAME2 }}
+          from: ${{ secrets.EMAIL_USERNAME }}
           secure: true
